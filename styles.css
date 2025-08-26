@@ -611,11 +611,47 @@ footer p {
     }
     
     .quick-info-home {
-        padding: 30px 0;
+        padding: 20px 0;
+        margin: 20px 0;
     }
     
     .info-cards-home {
-        gap: 20px;
+        gap: 15px;
+    }
+    
+    /* Tighter mobile spacing for all sections */
+    main {
+        padding: 15px 0;
+    }
+    
+    main .container section {
+        padding: 10px 0;
+    }
+    
+    section {
+        margin-bottom: 15px;
+    }
+    
+    .welcome-section {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .news-section {
+        margin-bottom: 20px;
+    }
+    
+    .meetings-header {
+        margin-bottom: 15px;
+    }
+    
+    .meeting-schedule {
+        margin-bottom: 15px;
+    }
+    
+    .meeting-minutes {
+        margin-top: 20px;
+        padding-top: 15px;
     }
     
     /* Mobile Navigation */
