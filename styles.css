@@ -442,114 +442,59 @@ li {
 }
 
 /* Meetings Page Styles */
-.meetings-info {
-    margin-bottom: 40px;
-}
-
-.meeting-schedule {
-    margin-bottom: 50px;
-}
-
-.meeting-details {
-    background-color: #f8f8f8;
-    padding: 25px;
-    border-radius: 8px;
+.meetings-header {
     margin-bottom: 30px;
 }
 
-.meeting-details h3 {
+.meetings-header h2 {
     color: #001a57;
-    margin-bottom: 15px;
-}
-
-.meeting-details p {
-    margin-bottom: 10px;
-}
-
-.calendar-section {
-    margin-top: 30px;
-}
-
-.calendar-section h3 {
-    color: #001a57;
-    margin-bottom: 20px;
-}
-
-.calendar-placeholder {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 8px;
+    font-size: 2.2rem;
     text-align: center;
-    border: 1px solid #e0e0e0;
+    font-weight: 700;
 }
 
-.calendar-placeholder p {
-    margin-bottom: 15px;
+.meeting-schedule {
+    margin-bottom: 40px;
 }
 
-.calendar-placeholder a {
-    color: #001a57;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.calendar-placeholder a:hover {
-    text-decoration: underline;
-}
-
-/* Google Calendar iframe styling when added */
-.calendar-section iframe {
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.meeting-agendas {
-    margin-bottom: 50px;
-}
-
-.meeting-info-card {
-    background-color: #f8f8f8;
-    padding: 25px;
-    border-radius: 8px;
+.meeting-details {
+    font-size: 1.1rem;
     margin-bottom: 25px;
+    text-align: center;
 }
 
-.meeting-info-card h3 {
-    color: #001a57;
+.meeting-dates {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meeting-dates li {
+    background-color: #f8f8f8;
+    padding: 20px;
     margin-bottom: 15px;
-}
-
-.meeting-info-card ul {
-    margin-left: 20px;
-}
-
-.meeting-info-card li {
-    margin-bottom: 10px;
-}
-
-.meeting-info-card a {
-    color: #001a57;
-    text-decoration: none;
+    border-radius: 8px;
+    border-left: 4px solid #001a57;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
-.meeting-info-card a:hover {
-    text-decoration: underline;
-}
-
-.meeting-resources {
-    margin-top: 50px;
-    padding-top: 40px;
+.meeting-minutes {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
     border-top: 2px solid #f0f0f0;
 }
 
-.resources-placeholder {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 20px;
-    border: 1px dashed #ddd;
+.meeting-minutes a {
+    color: #001a57;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.meeting-minutes a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
