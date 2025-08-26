@@ -489,31 +489,41 @@ li {
     margin-bottom: 10px;
 }
 
-.upcoming-meetings {
+.calendar-section {
     margin-top: 30px;
 }
 
-.upcoming-meetings h3 {
+.calendar-section h3 {
     color: #001a57;
     margin-bottom: 20px;
 }
 
-.upcoming-meetings ul {
-    list-style: none;
-    margin-left: 0;
+.calendar-placeholder {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
 }
 
-.upcoming-meetings li {
-    background-color: #fff;
-    border-left: 4px solid #001a57;
-    padding: 15px;
+.calendar-placeholder p {
     margin-bottom: 15px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
 }
 
-.upcoming-meetings li:hover {
-    transform: translateX(5px);
+.calendar-placeholder a {
+    color: #001a57;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.calendar-placeholder a:hover {
+    text-decoration: underline;
+}
+
+/* Google Calendar iframe styling when added */
+.calendar-section iframe {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .meeting-agendas {
