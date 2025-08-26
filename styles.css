@@ -155,14 +155,14 @@ nav a.current {
 
 /* Main Content */
 main {
-    padding: 40px 0;
+    padding: 25px 0;
     min-height: calc(100vh - 300px); /* Ensures footer stays at bottom */
 }
 
 /* Welcome Section */
 .welcome-section {
-    margin-bottom: 50px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #f0f0f0;
 }
 
@@ -181,7 +181,7 @@ main {
 
 /* News Section */
 .news-section {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .news-section h2 {
@@ -206,8 +206,8 @@ main {
 
 /* Quick Info Cards */
 .quick-info-home {
-    margin: 50px 0;
-    padding: 40px 0;
+    margin: 30px 0;
+    padding: 30px 0;
     background-color: #f8f9fa;
     margin-left: -15px;
     margin-right: -15px;
@@ -262,11 +262,11 @@ main {
 
 /* Regular content sections */
 main .container section {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -443,7 +443,7 @@ li {
 
 /* Meetings Page Styles */
 .meetings-header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .meetings-header h2 {
@@ -454,7 +454,7 @@ li {
 }
 
 .meeting-schedule {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .meeting-details {
@@ -481,8 +481,8 @@ li {
 
 .meeting-minutes {
     text-align: center;
-    margin-top: 40px;
-    padding-top: 30px;
+    margin-top: 25px;
+    padding-top: 20px;
     border-top: 2px solid #f0f0f0;
 }
 
