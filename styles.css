@@ -155,84 +155,67 @@ nav a.current {
 
 /* Main Content */
 main {
-    padding: 0;
+    padding: 40px 0;
     min-height: calc(100vh - 300px); /* Ensures footer stays at bottom */
 }
 
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, #001a57 0%, #003d8f 100%);
-    color: white;
-    padding: 80px 20px;
-    text-align: center;
-    margin-bottom: 0;
+/* Welcome Section */
+.welcome-section {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f0f0f0;
 }
 
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.hero h2 {
-    color: white;
-    font-size: 2.8rem;
+.welcome-section h2 {
+    color: #001a57;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     font-weight: 700;
 }
 
-.hero-subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 40px;
-    opacity: 0.95;
+.welcome-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
 }
 
-.hero-buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+/* News Section */
+.news-section {
+    margin-bottom: 50px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 14px 32px;
-    text-decoration: none;
+.news-section h2 {
+    color: #001a57;
+    margin-bottom: 25px;
+}
+
+.instagram-preview {
+    margin-top: 20px;
+}
+
+.instagram-link {
+    color: #001a57;
     font-weight: 600;
-    border-radius: 30px;
-    transition: all 0.3s;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
 
-.btn-primary {
-    background-color: white;
-    color: #001a57;
-}
-
-.btn-primary:hover {
-    background-color: #f0f0f0;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.btn-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
-.btn-secondary:hover {
-    background-color: white;
-    color: #001a57;
-    transform: translateY(-2px);
+.instagram-link:hover {
+    text-decoration: underline;
 }
 
 /* Quick Info Cards */
-.quick-info {
+.quick-info-home {
+    margin: 50px 0;
+    padding: 40px 0;
     background-color: #f8f9fa;
-    padding: 60px 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.info-cards {
+.info-cards-home {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
@@ -340,13 +323,7 @@ li {
     text-decoration: none;
 }
 
-/* Instagram Feed Section */
-.instagram-feed {
-    margin-top: 50px;
-    padding-top: 40px;
-    border-top: 2px solid #f0f0f0;
-}
-
+/* Instagram Container */
 .instagram-container {
     margin-top: 20px;
     width: 100%;
@@ -597,28 +574,19 @@ footer p {
         font-size: 1rem;
     }
     
-    .hero {
-        padding: 60px 20px;
+    .welcome-section h2 {
+        font-size: 2rem;
     }
     
-    .hero h2 {
-        font-size: 2.2rem;
+    .welcome-text {
+        font-size: 1.05rem;
     }
     
-    .hero-subtitle {
-        font-size: 1.1rem;
+    .quick-info-home {
+        padding: 30px 0;
     }
     
-    .btn {
-        padding: 12px 28px;
-        font-size: 1rem;
-    }
-    
-    .quick-info {
-        padding: 40px 0;
-    }
-    
-    .info-cards {
+    .info-cards-home {
         gap: 20px;
     }
     
@@ -712,26 +680,16 @@ footer p {
         font-size: 0.9rem;
     }
     
-    .hero {
-        padding: 40px 15px;
-    }
-    
-    .hero h2 {
+    .welcome-section h2 {
         font-size: 1.8rem;
     }
     
-    .hero-subtitle {
+    .welcome-text {
         font-size: 1rem;
-        margin-bottom: 30px;
     }
     
-    .hero-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn {
-        width: 200px;
+    .instagram-link {
+        font-size: 1.1rem;
     }
     
     .info-card {
