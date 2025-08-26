@@ -155,12 +155,118 @@ nav a.current {
 
 /* Main Content */
 main {
-    padding: 40px 0;
+    padding: 25px 0;
     min-height: calc(100vh - 300px); /* Ensures footer stays at bottom */
 }
 
+/* Welcome Section */
+.welcome-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.welcome-section h2 {
+    color: #001a57;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.welcome-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* News Section */
+.news-section {
+    margin-bottom: 30px;
+}
+
+.news-section h2 {
+    color: #001a57;
+    margin-bottom: 25px;
+}
+
+.instagram-preview {
+    margin-top: 20px;
+}
+
+.instagram-link {
+    color: #001a57;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.instagram-link:hover {
+    text-decoration: underline;
+}
+
+/* Quick Info Cards */
+.quick-info-home {
+    margin: 30px 0;
+    padding: 30px 0;
+    background-color: #f8f9fa;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info-cards-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.info-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.info-card h3 {
+    color: #001a57;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    margin-bottom: 12px;
+    color: #666;
+}
+
+.info-card a {
+    color: #001a57;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+
+.info-card a:hover {
+    transform: translateX(5px);
+}
+
+/* Regular content sections */
+main .container section {
+    padding: 20px 0;
+}
+
 section {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -195,16 +301,295 @@ li {
     font-size: 1.2rem;
 }
 
+/* Governance Section */
+.governance {
+    margin-top: 40px;
+}
+
+.bylaws-link {
+    display: inline-block;
+    background-color: #001a57;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.bylaws-link:hover {
+    background-color: #002d8f;
+    text-decoration: none;
+}
+
+/* Instagram Container */
+.instagram-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Placeholder styling */
+.instagram-placeholder {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px dashed #ddd;
+    text-align: center;
+}
+
+.instagram-placeholder ol {
+    text-align: left;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.instagram-placeholder a {
+    color: #001a57;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.instagram-placeholder a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for embedded Instagram widgets */
+.snapwidget-widget {
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+
+/* Elfsight widget container */
+.elfsight-app-container {
+    width: 100% !important;
+}
+
+/* Behold widget responsive */
+.behold-widget {
+    width: 100%;
+    min-height: 400px;
+}
+
+/* Contact Page Styles */
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.contact-card {
+    background-color: #f8f8f8;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h3 {
+    color: #001a57;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.contact-card a {
+    color: #001a57;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.board-contact {
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.board-list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.board-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.get-involved {
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.get-involved ul {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.get-involved li {
+    margin-bottom: 12px;
+}
+
+/* Meetings Page Styles */
+.meetings-header {
+    margin-bottom: 20px;
+}
+
+.meetings-header h2 {
+    color: #001a57;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.meeting-schedule {
+    margin-bottom: 25px;
+}
+
+.meeting-details {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.meeting-dates {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meeting-dates li {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #001a57;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.meeting-minutes {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.meeting-minutes a {
+    color: #001a57;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.meeting-minutes a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: #001a57;
     color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.footer-social a:hover {
+    opacity: 0.8;
 }
 
 footer p {
     margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-social {
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .footer-social a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.1);
+        font-size: 0;
+        position: relative;
+        transition: all 0.3s;
+    }
+    
+    .footer-social a:hover {
+        background-color: rgba(255,255,255,0.2);
+        transform: scale(1.1);
+    }
+    
+    /* Instagram icon */
+    .footer-social a[href*="instagram"]:after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        position: relative;
+    }
+    
+    .footer-social a[href*="instagram"]:before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    
+    /* Facebook icon */
+    .footer-social a[href*="facebook"]:after {
+        content: "f";
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1;
+    }
 }
 
 /* Responsive Design */
@@ -215,6 +600,58 @@ footer p {
     
     .subtitle {
         font-size: 1rem;
+    }
+    
+    .welcome-section h2 {
+        font-size: 2rem;
+    }
+    
+    .welcome-text {
+        font-size: 1.05rem;
+    }
+    
+    .quick-info-home {
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    
+    .info-cards-home {
+        gap: 15px;
+    }
+    
+    /* Tighter mobile spacing for all sections */
+    main {
+        padding: 15px 0;
+    }
+    
+    main .container section {
+        padding: 10px 0;
+    }
+    
+    section {
+        margin-bottom: 0px;
+    }
+    
+    .welcome-section {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .news-section {
+        margin-bottom: 20px;
+    }
+    
+    .meetings-header {
+        margin-bottom: 15px;
+    }
+    
+    .meeting-schedule {
+        margin-bottom: 15px;
+    }
+    
+    .meeting-minutes {
+        margin-top: 20px;
+        padding-top: 15px;
     }
     
     /* Mobile Navigation */
@@ -305,5 +742,21 @@ footer p {
     
     .subtitle {
         font-size: 0.9rem;
+    }
+    
+    .welcome-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .welcome-text {
+        font-size: 1rem;
+    }
+    
+    .instagram-link {
+        font-size: 1.1rem;
+    }
+    
+    .info-card {
+        padding: 20px;
     }
 }
