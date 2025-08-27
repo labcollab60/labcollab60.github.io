@@ -14,6 +14,7 @@ This repository contains a clean, responsive website design for The Lab Collab, 
 - HTML5
 - CSS3
 - Google Fonts (Poppins)
+- Javascript
 
 ## Structure
 - `index.html` - About page with organization information
