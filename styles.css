@@ -627,6 +627,20 @@ footer p {
     margin-bottom: 0;
 }
 
+.footer-org {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.footer-org p {
+    margin: 0;
+}
+
+.organization-details p {
+    margin-bottom: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .footer-social {
         flex-direction: row;
