@@ -57,6 +57,22 @@ header h1 {
     color: #fff;
 }
 
+.donate-section {
+    padding: 20px 0;
+}
+
+.donate-section p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.paypal-donate-form {
+    text-align: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
 /* Navigation */
 nav {
     background-color: #001a57;
