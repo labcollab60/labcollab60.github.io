@@ -39,22 +39,19 @@ header h1 {
     font-weight: 400;
 }
 
-.donate-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 24px;
-    background-color: #001a57;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+nav .donate-btn {
+    margin-top: 0;
+    padding: 8px 18px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: #001a57;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
-.donate-btn:hover {
-    background-color: #002a87;
-    color: #fff;
+nav .donate-btn:hover {
+    background-color: #e8ecf5;
+    color: #001a57;
 }
 
 .donate-section {
@@ -88,6 +85,7 @@ nav .container {
     align-items: center;
     width: 85%;
     height: 100%;
+    position: relative;
 }
 
 nav ul {
@@ -128,6 +126,25 @@ nav a.current {
     height: 100%;
     display: inline-flex;
     align-items: center;
+}
+
+@media (min-width: 769px) {
+    nav .menu-items {
+        padding-right: 130px;
+    }
+
+    nav .donate-btn {
+        position: absolute;
+        right: 15px;
+    }
+}
+
+.donate-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 /* Mobile Menu (Hamburger) */
@@ -811,8 +828,10 @@ footer p {
 
     nav .container {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         position: relative;
         width: 85%;
         padding: 0;
@@ -820,13 +839,22 @@ footer p {
 
     .hamburger {
         display: block;
-        align-self: flex-start;
+        align-self: center;
         position: relative;
         z-index: 2;
         margin-left: 15px;
+        order: 1;
+    }
+
+    nav .donate-btn {
+        order: 2;
+        margin-right: 15px;
+        display: inline-block;
+        padding: 8px 18px;
     }
 
     nav .menu-items {
+        order: 3;
         display: none;
         flex-direction: column;
         align-items: flex-start;
@@ -855,7 +883,7 @@ footer p {
         transition: transform 0.2s ease;
     }
 
-    nav a:hover {
+    nav .menu-items a:hover {
         transform: translateX(5px);
     }
 
