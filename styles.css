@@ -24,6 +24,11 @@ header {
     background-color: #fff;
     padding: 30px 0 15px;
     text-align: center;
+    position: relative;
+}
+
+header .container {
+    position: relative;
 }
 
 header h1 {
@@ -39,19 +44,24 @@ header h1 {
     font-weight: 400;
 }
 
-nav .donate-btn {
-    margin-top: 0;
-    padding: 8px 18px;
-    font-size: 0.9rem;
-    background-color: #fff;
-    color: #001a57;
-    white-space: nowrap;
-    flex-shrink: 0;
+header .donate-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #001a57;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-nav .donate-btn:hover {
-    background-color: #e8ecf5;
-    color: #001a57;
+header .donate-btn:hover {
+    background-color: #002d8f;
+    transform: translateY(-50%) scale(1.02);
 }
 
 .donate-section {
@@ -126,17 +136,6 @@ nav a.current {
     height: 100%;
     display: inline-flex;
     align-items: center;
-}
-
-@media (min-width: 769px) {
-    nav .menu-items {
-        padding-right: 130px;
-    }
-
-    nav .donate-btn {
-        position: absolute;
-        right: 15px;
-    }
 }
 
 .donate-btn {
@@ -767,6 +766,19 @@ footer p {
         line-height: 1.3;
     }
 
+    header .donate-btn {
+        position: static;
+        transform: none;
+        display: block;
+        margin: 15px auto 0;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    header .donate-btn:hover {
+        transform: none;
+    }
+
     .welcome-section h2 {
         font-size: 2rem;
     }
@@ -844,13 +856,6 @@ footer p {
         z-index: 2;
         margin-left: 15px;
         order: 1;
-    }
-
-    nav .donate-btn {
-        order: 2;
-        margin-right: 15px;
-        display: inline-block;
-        padding: 8px 18px;
     }
 
     nav .menu-items {
