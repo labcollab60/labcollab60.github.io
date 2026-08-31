@@ -374,6 +374,48 @@
             </div>
         </div>
     </footer>
+    <script>
+        (function () {
+            var sportLinks = document.querySelectorAll('.sport-nav a');
+            var sportPanels = document.querySelectorAll('.sport-schedule');
+
+            function openSportPanel(id) {
+                if (!id) {
+                    return;
+                }
+
+                var panel = document.getElementById(id);
+                if (!panel || !panel.classList.contains('sport-schedule')) {
+                    return;
+                }
+
+                sportPanels.forEach(function (details) {
+                    details.open = details.id === id;
+                });
+            }
+
+            sportLinks.forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    var id = link.getAttribute('href').slice(1);
+                    var panel = document.getElementById(id);
+
+                    if (!panel) {
+                        return;
+                    }
+
+                    event.preventDefault();
+                    openSportPanel(id);
+                    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    history.pushState(null, '', '#' + id);
+                });
+            });
+
+            openSportPanel(location.hash.slice(1));
+            window.addEventListener('hashchange', function () {
+                openSportPanel(location.hash.slice(1));
+            });
+        }());
+    </script>
 </body>
 
 </html>
