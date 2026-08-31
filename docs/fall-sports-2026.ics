@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lab Collab//Fall Sports 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lab School #60 Fall Sports 2026
+X-WR-TIMEZONE:America/Indiana/Indianapolis
+BEGIN:VEVENT
+UID:2026-08-27-boys-volleyball-washington-irving-14@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260827T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260827T190000
+SUMMARY:Boys Volleyball vs Washington Irving 14
+LOCATION:Washington Irving 14
+DESCRIPTION:Away game. Opponent: Washington Irving 14.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03-boys-volleyball-william-mckinley-39@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260903T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260903T190000
+SUMMARY:Boys Volleyball vs William McKinley 39
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: William McKinley 39.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-boys-volleyball-cfi-84@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260910T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260910T190000
+SUMMARY:Boys Volleyball vs CFI 84
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: CFI 84.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-boys-volleyball-clinic@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260912T101500
+DTEND;TZID=America/Indiana/Indianapolis:20260912T113000
+SUMMARY:Boys Volleyball Clinic
+LOCATION:Shortridge High School
+DESCRIPTION:Away game. Opponent: Clinic.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-boys-volleyball-daniel-webster-46@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260917T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260917T190000
+SUMMARY:Boys Volleyball vs Daniel Webster 46
+LOCATION:Daniel Webster 46
+DESCRIPTION:Away game. Opponent: Daniel Webster 46.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-boys-volleyball-ernie-pyle-90@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260924T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260924T190000
+SUMMARY:Boys Volleyball vs Ernie Pyle 90
+LOCATION:Ernie Pyle 90
+DESCRIPTION:Away game. Opponent: Ernie Pyle 90.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-06-boys-volleyball-butler-lab-60@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20261006T180000
+DTEND;TZID=America/Indiana/Indianapolis:20261006T190000
+SUMMARY:Boys Volleyball vs Butler Lab 60
+LOCATION:James Riley 43
+DESCRIPTION:Away game. Opponent: Butler Lab 60.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-29-girls-volleyball-blue-clinic@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260829T114500
+DTEND;TZID=America/Indiana/Indianapolis:20260829T130000
+SUMMARY:Girls Volleyball Blue Clinic
+LOCATION:Shortridge High School
+DESCRIPTION:Away game. Opponent: Clinic.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-01-girls-volleyball-blue-carl-wilde-79@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260901T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260901T190000
+SUMMARY:Girls Volleyball Blue vs Carl Wilde 79
+LOCATION:Carl Wilde 79
+DESCRIPTION:Away game. Opponent: Carl Wilde 79.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-girls-volleyball-blue-jonathan-jennings-10@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260909T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260909T190000
+SUMMARY:Girls Volleyball Blue vs Jonathan Jennings 109
+LOCATION:Jonathan Jennings 109
+DESCRIPTION:Away game. Opponent: Jonathan Jennings 109.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-girls-volleyball-blue-james-lowell-51@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260915T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260915T190000
+SUMMARY:Girls Volleyball Blue vs James Lowell 51
+LOCATION:James Lowell 51
+DESCRIPTION:Away game. Opponent: James Lowell 51.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-girls-volleyball-blue-cfi-84@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260922T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260922T190000
+SUMMARY:Girls Volleyball Blue vs CFI 84
+LOCATION:CFI 84
+DESCRIPTION:Away game. Opponent: CFI 84.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-girls-volleyball-blue-meredith-nicholson-9@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260929T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260929T190000
+SUMMARY:Girls Volleyball Blue vs Meredith Nicholson 96
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: Meredith Nicholson 96.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-06-girls-volleyball-blue-butler-lab-55@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20261006T180000
+DTEND;TZID=America/Indiana/Indianapolis:20261006T190000
+SUMMARY:Girls Volleyball Blue vs Butler Lab 55
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: Butler Lab 55.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-29-girls-volleyball-white-clinic@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260829T114500
+DTEND;TZID=America/Indiana/Indianapolis:20260829T130000
+SUMMARY:Girls Volleyball White Clinic
+LOCATION:Shortridge High School
+DESCRIPTION:Away game. Opponent: Clinic.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-01-girls-volleyball-white-clarence-farrington-@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260901T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260901T190000
+SUMMARY:Girls Volleyball White vs Clarence Farrington 61
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: Clarence Farrington 61.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-girls-volleyball-white-carl-wilde-79@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260909T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260909T190000
+SUMMARY:Girls Volleyball White vs Carl Wilde 79
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: Carl Wilde 79.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-girls-volleyball-white-anna-brochhausen-88@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260915T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260915T190000
+SUMMARY:Girls Volleyball White vs Anna Brochhausen 88
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: Anna Brochhausen 88.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-girls-volleyball-white-jonathan-jennings-10@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260922T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260922T190000
+SUMMARY:Girls Volleyball White vs Jonathan Jennings 109
+LOCATION:Butler Lab 60
+DESCRIPTION:Home game at Butler Lab 60. Opponent: Jonathan Jennings 109.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-girls-volleyball-white-cfi-70-gold@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260929T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260929T190000
+SUMMARY:Girls Volleyball White vs CFI 70 Gold
+LOCATION:CFI 70 Gold
+DESCRIPTION:Away game. Opponent: CFI 70 Gold.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-06-girls-volleyball-white-james-lowell-51@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20261006T180000
+DTEND;TZID=America/Indiana/Indianapolis:20261006T190000
+SUMMARY:Girls Volleyball White vs James Lowell 51
+LOCATION:James Lowell 51
+DESCRIPTION:Away game. Opponent: James Lowell 51.
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-cross-country@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260914T174500
+DTEND;TZID=America/Indiana/Indianapolis:20260914T184500
+SUMMARY:Cross Country Meet
+LOCATION:Floro Torrence School 83
+DESCRIPTION:Boys 5:45pm, Girls right after boys
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-cross-country@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260919T073000
+DTEND;TZID=America/Indiana/Indianapolis:20260919T120000
+SUMMARY:Cross Country - Lucas Oil Race Day
+LOCATION:Lucas Oil Stadium
+DESCRIPTION:Race Day. Arrive 7:30 AM
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-cross-country@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260928T174500
+DTEND;TZID=America/Indiana/Indianapolis:20260928T184500
+SUMMARY:Cross Country Meet
+LOCATION:Floro Torrence School 83
+DESCRIPTION:Boys 5:45pm, Girls right after boys
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-cross-country@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20261005T174500
+DTEND;TZID=America/Indiana/Indianapolis:20261005T184500
+SUMMARY:Cross Country Meet
+LOCATION:Floro Torrence School 83
+DESCRIPTION:Group 1 Boys 5:45pm, Group 1 Girls right after boys
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

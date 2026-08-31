@@ -834,6 +834,126 @@ footer p {
     margin: 20px 0 0 20px;
 }
 
+/* Fall Sports Schedules */
+.fall-sports {
+    margin-top: 35px;
+    padding-top: 30px !important;
+    border-top: 2px solid #f0f0f0;
+}
+
+.sport-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 22px 0 18px;
+}
+
+.sport-nav a {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 2px solid #001a57;
+    border-radius: 999px;
+    color: #001a57;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sport-nav a:hover {
+    background-color: #001a57;
+    color: #fff;
+}
+
+.sport-schedule {
+    margin-bottom: 14px;
+    padding: 16px 18px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    scroll-margin-top: 90px;
+}
+
+.sport-schedule summary {
+    color: #001a57;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.sport-schedule[open] summary {
+    margin-bottom: 14px;
+}
+
+.schedule-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.schedule-table th {
+    background-color: #001a57;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.schedule-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.schedule-table tr.home-game {
+    background-color: #fff9db;
+}
+
+.home-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 8px;
+    background-color: #001a57;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.add-cal-link {
+    color: #001a57;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.add-cal-link:hover {
+    text-decoration: underline;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .coming-soon-link {
     color: #555;
     font-weight: 500;
@@ -1016,6 +1136,52 @@ footer p {
 
     .calendar-preview-link {
         margin: 20px auto;
+    }
+
+    .schedule-table thead {
+        display: none;
+    }
+
+    .schedule-table,
+    .schedule-table tbody,
+    .schedule-table tr,
+    .schedule-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .schedule-table tr {
+        margin-bottom: 14px;
+        padding: 14px;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+    .schedule-table tr.home-game {
+        background-color: #fff9db;
+        border-color: #f0e6a0;
+    }
+
+    .schedule-table td {
+        padding: 4px 0;
+        border-bottom: none;
+    }
+
+    .schedule-table td::before {
+        content: attr(data-label) ": ";
+        color: #001a57;
+        font-weight: 600;
+    }
+
+    .schedule-table td[data-label="Add"] {
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid #eee;
+    }
+
+    .schedule-table td[data-label="Add"]::before {
+        content: "";
     }
 
     /* Mobile Navigation */
