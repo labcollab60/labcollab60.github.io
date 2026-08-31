@@ -48,7 +48,7 @@ DTSTART;TZID=America/Indiana/Indianapolis:20260912T101500
 DTEND;TZID=America/Indiana/Indianapolis:20260912T113000
 SUMMARY:Boys Volleyball Clinic
 LOCATION:Shortridge High School
-DESCRIPTION:Away game. Opponent: Clinic.
+DESCRIPTION:Boys Volleyball clinic at Shortridge High School.
 CATEGORIES:Fall Sports
 URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
@@ -96,7 +96,7 @@ DTSTART;TZID=America/Indiana/Indianapolis:20260829T114500
 DTEND;TZID=America/Indiana/Indianapolis:20260829T130000
 SUMMARY:Girls Volleyball Blue Clinic
 LOCATION:Shortridge High School
-DESCRIPTION:Away game. Opponent: Clinic.
+DESCRIPTION:Girls Volleyball Blue clinic at Shortridge High School.
 CATEGORIES:Fall Sports
 URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
@@ -114,7 +114,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-09-girls-volleyball-blue-jonathan-jennings-10@labcollab60.com
+UID:2026-09-09-girls-volleyball-blue-jonathan-jennings-109@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260909T180000
 DTEND;TZID=America/Indiana/Indianapolis:20260909T190000
@@ -150,7 +150,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-29-girls-volleyball-blue-meredith-nicholson-9@labcollab60.com
+UID:2026-09-29-girls-volleyball-blue-meredith-nicholson-96@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260929T180000
 DTEND;TZID=America/Indiana/Indianapolis:20260929T190000
@@ -180,13 +180,13 @@ DTSTART;TZID=America/Indiana/Indianapolis:20260829T114500
 DTEND;TZID=America/Indiana/Indianapolis:20260829T130000
 SUMMARY:Girls Volleyball White Clinic
 LOCATION:Shortridge High School
-DESCRIPTION:Away game. Opponent: Clinic.
+DESCRIPTION:Girls Volleyball White clinic at Shortridge High School.
 CATEGORIES:Fall Sports
 URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-01-girls-volleyball-white-clarence-farrington-@labcollab60.com
+UID:2026-09-01-girls-volleyball-white-clarence-farrington-61@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260901T180000
 DTEND;TZID=America/Indiana/Indianapolis:20260901T190000
@@ -222,7 +222,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-22-girls-volleyball-white-jonathan-jennings-10@labcollab60.com
+UID:2026-09-22-girls-volleyball-white-jonathan-jennings-109@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260922T180000
 DTEND;TZID=America/Indiana/Indianapolis:20260922T190000
@@ -258,7 +258,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-14-cross-country@labcollab60.com
+UID:2026-09-14-cross-country-meet-1@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260914T174500
 DTEND;TZID=America/Indiana/Indianapolis:20260914T184500
@@ -270,7 +270,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-19-cross-country@labcollab60.com
+UID:2026-09-19-cross-country-lucas-oil@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260919T073000
 DTEND;TZID=America/Indiana/Indianapolis:20260919T120000
@@ -282,7 +282,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-09-28-cross-country@labcollab60.com
+UID:2026-09-28-cross-country-meet-2@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20260928T174500
 DTEND;TZID=America/Indiana/Indianapolis:20260928T184500
@@ -294,7 +294,7 @@ URL:https://labcollab60.com/calendar.html#fall-sports
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-10-05-cross-country@labcollab60.com
+UID:2026-10-05-cross-country-meet-3@labcollab60.com
 DTSTAMP:20260831T160000Z
 DTSTART;TZID=America/Indiana/Indianapolis:20261005T174500
 DTEND;TZID=America/Indiana/Indianapolis:20261005T184500

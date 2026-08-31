@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Lab Collab//Cross Country 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cross Country 2026
+X-WR-TIMEZONE:America/Indiana/Indianapolis
+BEGIN:VEVENT
+UID:2026-09-14-cross-country-meet-1@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260914T174500
+DTEND;TZID=America/Indiana/Indianapolis:20260914T184500
+SUMMARY:Cross Country Meet
+LOCATION:Floro Torrence School 83
+DESCRIPTION:Boys 5:45pm, Girls right after boys
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-cross-country-lucas-oil@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260919T073000
+DTEND;TZID=America/Indiana/Indianapolis:20260919T120000
+SUMMARY:Cross Country - Lucas Oil Race Day
+LOCATION:Lucas Oil Stadium
+DESCRIPTION:Race Day. Arrive 7:30 AM
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-cross-country-meet-2@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260928T174500
+DTEND;TZID=America/Indiana/Indianapolis:20260928T184500
+SUMMARY:Cross Country Meet
+LOCATION:Floro Torrence School 83
+DESCRIPTION:Boys 5:45pm, Girls right after boys
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-cross-country-meet-3@labcollab60.com
+DTSTAMP:20260831T160000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20261005T174500
+DTEND;TZID=America/Indiana/Indianapolis:20261005T184500
+SUMMARY:Cross Country Meet
+LOCATION:Floro Torrence School 83
+DESCRIPTION:Group 1 Boys 5:45pm, Group 1 Girls right after boys
+CATEGORIES:Fall Sports
+URL:https://labcollab60.com/calendar.html#fall-sports
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

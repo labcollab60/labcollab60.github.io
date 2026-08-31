@@ -884,6 +884,40 @@ footer p {
     margin-bottom: 14px;
 }
 
+.team-calendar-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.team-calendar-action,
+.team-calendar-subscribe {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 2px solid #001a57;
+    border-radius: 6px;
+    color: #001a57;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.team-calendar-action {
+    background-color: #001a57;
+    color: #fff;
+}
+
+.team-calendar-action:hover {
+    background-color: #002d8f;
+    border-color: #002d8f;
+}
+
+.team-calendar-subscribe:hover {
+    background-color: #f1f5ff;
+}
+
 .schedule-table-wrap {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -1182,6 +1216,16 @@ footer p {
 
     .schedule-table td[data-label="Add"]::before {
         content: "";
+    }
+
+    .team-calendar-actions {
+        flex-direction: column;
+    }
+
+    .team-calendar-action,
+    .team-calendar-subscribe {
+        width: 100%;
+        text-align: center;
     }
 
     /* Mobile Navigation */
