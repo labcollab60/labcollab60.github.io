@@ -64,10 +64,10 @@
 
                 <p class="sport-nav-label">Jump to a team:</p>
                 <div class="sport-nav" role="navigation" aria-label="Jump to team schedule">
-                    <a href="#boys-volleyball">Boys Volleyball</a>
-                    <a href="#girls-volleyball-blue">Girls Blue</a>
-                    <a href="#girls-volleyball-white">Girls White</a>
-                    <a href="#cross-country">Cross Country</a>
+                    <button type="button" class="sport-nav-link" data-target="boys-volleyball">Boys Volleyball</button>
+                    <button type="button" class="sport-nav-link" data-target="girls-volleyball-blue">Girls Blue</button>
+                    <button type="button" class="sport-nav-link" data-target="girls-volleyball-white">Girls White</button>
+                    <button type="button" class="sport-nav-link" data-target="cross-country">Cross Country</button>
                 </div>
 
                 <details class="sport-schedule" id="boys-volleyball" open>
@@ -375,8 +375,8 @@
         </div>
     </footer>
     <script>
-        (function () {
-            var sportLinks = document.querySelectorAll('.sport-nav a');
+        document.addEventListener('DOMContentLoaded', function () {
+            var sportButtons = document.querySelectorAll('.sport-nav-link');
             var sportPanels = document.querySelectorAll('.sport-schedule');
 
             function openSportPanel(id) {
@@ -390,31 +390,47 @@
                 }
 
                 sportPanels.forEach(function (details) {
-                    details.open = details.id === id;
+                    if (details.id === id) {
+                        details.setAttribute('open', '');
+                    } else {
+                        details.removeAttribute('open');
+                    }
                 });
             }
 
-            sportLinks.forEach(function (link) {
-                link.addEventListener('click', function (event) {
-                    var id = link.getAttribute('href').slice(1);
-                    var panel = document.getElementById(id);
+            function jumpToTeam(id) {
+                var panel = document.getElementById(id);
+                if (!panel) {
+                    return;
+                }
 
-                    if (!panel) {
-                        return;
-                    }
+                openSportPanel(id);
 
-                    event.preventDefault();
-                    openSportPanel(id);
-                    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                if (history.pushState) {
                     history.pushState(null, '', '#' + id);
+                } else {
+                    location.hash = id;
+                }
+
+                requestAnimationFrame(function () {
+                    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            }
+
+            sportButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    jumpToTeam(button.getAttribute('data-target'));
                 });
             });
 
-            openSportPanel(location.hash.slice(1));
-            window.addEventListener('hashchange', function () {
-                openSportPanel(location.hash.slice(1));
-            });
-        }());
+            function syncFromHash() {
+                openSportPanel(location.hash.replace('#', ''));
+            }
+
+            syncFromHash();
+            window.addEventListener('hashchange', syncFromHash);
+            window.addEventListener('pageshow', syncFromHash);
+        });
     </script>
 </body>
 

@@ -873,21 +873,24 @@ footer p {
     margin: 0 0 18px;
 }
 
-.sport-nav a {
+.sport-nav-link {
     display: inline;
     padding: 0;
     border: none;
+    background: none;
     border-radius: 0;
     color: #001a57;
+    font-family: inherit;
     font-size: 0.95rem;
     font-weight: 500;
     text-decoration: underline;
     text-underline-offset: 3px;
     letter-spacing: normal;
+    cursor: pointer;
     transition: color 0.2s;
 }
 
-.sport-nav a:hover {
+.sport-nav-link:hover {
     background: none;
     color: #002d8f;
 }
