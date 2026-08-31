@@ -835,6 +835,12 @@ footer p {
 }
 
 /* Fall Sports Schedules */
+.news-item.fall-sports {
+    margin-top: 0;
+    padding-top: 25px !important;
+    border-top: none;
+}
+
 .fall-sports {
     margin-top: 35px;
     padding-top: 30px !important;
@@ -846,6 +852,9 @@ footer p {
     flex-wrap: wrap;
     gap: 10px;
     margin: 22px 0 18px;
+    background: none;
+    padding: 0;
+    min-height: auto;
 }
 
 .sport-nav a {
@@ -857,6 +866,7 @@ footer p {
     font-size: 0.92rem;
     font-weight: 600;
     text-decoration: none;
+    letter-spacing: normal;
     transition: background-color 0.2s, color 0.2s;
 }
 
@@ -1172,6 +1182,33 @@ footer p {
         margin: 20px auto;
     }
 
+    .sport-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        background: none;
+        padding: 0;
+        min-height: auto;
+    }
+
+    .sport-nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 12px;
+        color: #001a57;
+        font-size: 0.9rem;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    .sport-schedule {
+        padding: 14px;
+    }
+
+    .schedule-table-wrap {
+        overflow-x: visible;
+    }
+
     .schedule-table thead {
         display: none;
     }
@@ -1216,6 +1253,13 @@ footer p {
 
     .schedule-table td[data-label="Add"]::before {
         content: "";
+    }
+
+    .schedule-table td[data-label="Add"] .add-cal-link {
+        display: inline-block;
+        padding: 8px 12px;
+        border: 1px solid #001a57;
+        border-radius: 6px;
     }
 
     .team-calendar-actions {
