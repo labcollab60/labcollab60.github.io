@@ -839,6 +839,18 @@ footer p {
     margin-top: 0;
     padding-top: 25px !important;
     border-top: none;
+    border-left: none;
+}
+
+.news-item.fall-sports .calendar-action,
+.news-item.fall-sports .team-calendar-action {
+    color: #fff;
+}
+
+.news-item.fall-sports .calendar-subscribe,
+.news-item.fall-sports .team-calendar-subscribe,
+.news-item.fall-sports .add-cal-link {
+    color: #001a57;
 }
 
 .fall-sports {
@@ -847,32 +859,37 @@ footer p {
     border-top: 2px solid #f0f0f0;
 }
 
+.sport-nav-label {
+    margin: 20px 0 8px;
+    color: #555;
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
 .sport-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin: 22px 0 18px;
-    background: none;
-    padding: 0;
-    min-height: auto;
+    gap: 8px 18px;
+    margin: 0 0 18px;
 }
 
 .sport-nav a {
-    display: inline-block;
-    padding: 8px 14px;
-    border: 2px solid #001a57;
-    border-radius: 999px;
+    display: inline;
+    padding: 0;
+    border: none;
+    border-radius: 0;
     color: #001a57;
-    font-size: 0.92rem;
-    font-weight: 600;
-    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
     letter-spacing: normal;
-    transition: background-color 0.2s, color 0.2s;
+    transition: color 0.2s;
 }
 
 .sport-nav a:hover {
-    background-color: #001a57;
-    color: #fff;
+    background: none;
+    color: #002d8f;
 }
 
 .sport-schedule {
@@ -1183,22 +1200,7 @@ footer p {
     }
 
     .sport-nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        background: none;
-        padding: 0;
-        min-height: auto;
-    }
-
-    .sport-nav a {
-        display: block;
-        width: 100%;
-        padding: 10px 12px;
-        color: #001a57;
-        font-size: 0.9rem;
-        letter-spacing: normal;
-        text-align: center;
+        gap: 10px 16px;
     }
 
     .sport-schedule {
